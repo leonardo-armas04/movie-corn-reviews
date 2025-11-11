@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Los cuatro fantásticos",
+        "year": "2025",
+        "img": "fantastic-four"
+    },
+    {
+        "name": "Bob Esponja la película",
+        "year": "2004",
+        "img": "spongebob-movie-2004"
+    },
+    {
+        "name": "Superman",
+        "year": "2025",
+        "img": "superman-2025"
+    }
+]

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import Card from './views/Card'
 import Navbar from './views/Navbar'
+import Carousel from './views/Carousel'
+import peliculas from './data/movies.json'
+import series from './data/series.json'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,10 +14,9 @@ function App() {
       <main>
         <h1>Hola mundo xd</h1>
         <p>Este es un párrafo xd</p>
-        <Card></Card>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
+        <Carousel type="movies"/>
+        <br />
+        <Carousel type="series"/>
       </main>
       
     </>
