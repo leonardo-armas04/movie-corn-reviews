@@ -1,0 +1,41 @@
+nav.navbar {
+    background-color: var(--cornflower-blue);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    display: flex;
+    padding-right: 1rem;
+}
+
+.navbar-brand img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.navbar-brand p {
+    margin: auto 0;
+}
+
+.navbar-expand-lg a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--azure-blue)
+}
+
+.nav-link {
+    margin: 0 0.5rem;
+    border-radius: 8px;
+}
+
+.navbar-brand:hover {
+    color: var(--dark-blue)
+}
+
+.nav-link:hover {
+    background-color: var(--light-blue);
+    color: aliceblue;
+}

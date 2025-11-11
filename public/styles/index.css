@@ -2,39 +2,23 @@
 
 html {
     --azure-blue: #F0FFFF;
+    --light-blue: #77a3f6;
     --cornflower-blue: #6495ED;
     --cobalt-blue: #0047AB;
     --dark-blue: #00008B;
     --midnight-blue: #191970;
 }
+
 body {
     font-family: "Quantico", sans-serif;
     background-color: var(--azure-blue);
     color: var(--dark-blue);
-    margin: 0 4rem;
+    text-align: center;
+    margin-top: 6rem;
 }
 
-nav {
-    background-color: var(--cornflower-blue);
-}
-
-.navbar-brand {
-    display: flex;
-}
-
-.navbar-brand img {
-    width: 4rem;
-    height: 4rem;
-}
-
-.navbar-brand p {
-    margin: auto 0;
-}
-
-.navbar-expand-lg a {
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--azure-blue)
+main {
+    padding: 0 4rem;
 }
 
 h1 {

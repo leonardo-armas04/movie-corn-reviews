@@ -8,9 +8,15 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <h1>Hola mundo xd</h1>
-      <p>Este es un párrafo xd</p>
-      <Card></Card>
+      <main>
+        <h1>Hola mundo xd</h1>
+        <p>Este es un párrafo xd</p>
+        <Card></Card>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor blanditiis similique beatae doloremque fuga expedita. Facere magnam, ab sint praesentium atque impedit minus voluptatem aliquid, hic deleniti ex sapiente fuga.</p>
+      </main>
+      
     </>
   )
 }
