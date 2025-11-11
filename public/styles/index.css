@@ -11,6 +11,30 @@ body {
     font-family: "Quantico", sans-serif;
     background-color: var(--azure-blue);
     color: var(--dark-blue);
+    margin: 0 4rem;
+}
+
+nav {
+    background-color: var(--cornflower-blue);
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.navbar-brand p {
+    margin: auto 0;
+}
+
+.navbar-expand-lg a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--azure-blue)
 }
 
 h1 {
