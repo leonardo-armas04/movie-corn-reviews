@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Quantico&display=swap');
+
+html {
+    --azure-blue: #F0FFFF;
+    --cornflower-blue: #6495ED;
+    --cobalt-blue: #0047AB;
+    --dark-blue: #00008B;
+    --midnight-blue: #191970;
+}
+body {
+    font-family: "Quantico", sans-serif;
+    background-color: var(--azure-blue);
+    color: var(--dark-blue);
+}
+
+h1 {
+    font-family: "Bubblegum Sans", sans-serif;
+}
