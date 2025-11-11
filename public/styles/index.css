@@ -24,3 +24,13 @@ main {
 h1 {
     font-family: "Bubblegum Sans", sans-serif;
 }
+
+#carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    width: 75%;
+}

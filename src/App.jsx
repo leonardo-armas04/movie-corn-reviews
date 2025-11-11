@@ -14,11 +14,13 @@ function App() {
       <main>
         <h1>Hola mundo xd</h1>
         <p>Este es un párrafo xd</p>
-        <Carousel type="movies"/>
-        <br />
-        <Carousel type="series"/>
+        <div id='carousel'>
+          <Carousel type="movies" />
+          <br />
+          <Carousel type="series" />
+        </div>
       </main>
-      
+
     </>
   )
 }
