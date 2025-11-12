@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15rem;
+    background-color: var(--dark-blue);
+    color: var(--azure-blue);
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #social h5 {
+    padding-bottom: 0.5rem;
+}
+
+#social {
+    width: 12rem;
+    padding: 1rem 0;
+    margin: auto 2rem;
+}
+
+#social #icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;
+}
+
+#links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}

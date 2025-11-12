@@ -2,8 +2,7 @@ import { useState } from 'react'
 import Card from './views/Card'
 import Navbar from './views/Navbar'
 import Carousel from './views/Carousel'
-import peliculas from './data/movies.json'
-import series from './data/series.json'
+import Footer from './views/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +19,7 @@ function App() {
           <Carousel type="series" />
         </div>
       </main>
-
+      <Footer></Footer>
     </>
   )
 }

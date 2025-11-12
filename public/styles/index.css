@@ -14,11 +14,12 @@ body {
     background-color: var(--azure-blue);
     color: var(--dark-blue);
     text-align: center;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
 }
 
 main {
     padding: 0 4rem;
+    margin: 6rem 0;
 }
 
 h1 {
@@ -35,4 +36,11 @@ h1 {
 
 .carousel {
     width: 75%;
+}
+
+@media (max-width: 768px) {
+    main {
+        /* 15rem footer, 12rem margin top-bottom (6+6) */
+        min-height: calc(100vh - 27rem);
+    }
 }
