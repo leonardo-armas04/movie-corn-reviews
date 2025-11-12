@@ -39,3 +39,9 @@ nav.navbar {
     background-color: var(--light-blue);
     color: aliceblue;
 }
+
+.navbar-nav {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
