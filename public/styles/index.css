@@ -87,5 +87,20 @@ p a {
     main {
         /* 15rem footer, 6rem margin top-bottom (12rem) */
         min-height: calc(100vh - 27rem);
+        margin-bottom: 2.5rem;
+    }
+
+    #popcorn-container {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    #popcorn-container img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #popcorn-container p {
+        padding: 0;
     }
 }
