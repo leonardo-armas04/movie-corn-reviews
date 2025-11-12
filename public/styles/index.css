@@ -14,16 +14,61 @@ body {
     background-color: var(--azure-blue);
     color: var(--dark-blue);
     text-align: center;
-    /* margin-top: 6rem; */
 }
 
 main {
     padding: 0 4rem;
-    margin: 6rem 0;
+    margin: 5rem 0;
 }
 
 h1 {
     font-family: "Bubblegum Sans", sans-serif;
+}
+
+#popcorn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#popcorn-container img {
+    width: 10rem;
+    height: 10rem;
+}
+
+#popcorn-container p {
+    padding-left: 2rem;
+}
+
+header>p {
+    text-align: justify;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+p a {
+    text-decoration: none;
+    color: var(--cornflower-blue);
+}
+
+#awa {
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#awa img {
+    width: 3rem;
+    height: 3rem;
+}
+
+#awa p, #popcorn-container p {
+    margin: auto 0;
 }
 
 #carousel {
@@ -40,7 +85,7 @@ h1 {
 
 @media (max-width: 768px) {
     main {
-        /* 15rem footer, 12rem margin top-bottom (6+6) */
+        /* 15rem footer, 6rem margin top-bottom (12rem) */
         min-height: calc(100vh - 27rem);
     }
 }

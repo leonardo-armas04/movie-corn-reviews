@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import Card from './views/Card'
 import Navbar from './views/Navbar'
+import Start from './views/Start'
 import Carousel from './views/Carousel'
+import Awa from './views/Awa'
 import Footer from './views/Footer'
 
 function App() {
@@ -11,15 +12,17 @@ function App() {
     <>
       <Navbar></Navbar>
       <main>
-        <h1>Hola mundo xd</h1>
-        <p>Este es un párrafo xd</p>
+        <Start></Start>
         <div id='carousel'>
+          <h4>Películas</h4>
           <Carousel type="movies" />
           <br />
+          <h4>Series</h4>
           <Carousel type="series" />
         </div>
       </main>
-      <Footer></Footer>
+      <Awa/>
+      <Footer/>
     </>
   )
 }
