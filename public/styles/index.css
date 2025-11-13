@@ -19,6 +19,8 @@ body {
 main {
     padding: 0 4rem;
     margin: 5rem 0;
+    /* 15rem footer, 5rem margin top and bottom (10rem) */
+    min-height: calc(100vh - 25rem);
 }
 
 h1 {
@@ -49,7 +51,7 @@ header>p {
     margin: 0 auto;
 }
 
-p a {
+main a {
     text-decoration: none;
     color: var(--cornflower-blue);
 }
@@ -85,8 +87,8 @@ p a {
 
 @media (max-width: 768px) {
     main {
-        /* 15rem footer, 6rem margin top-bottom (12rem) */
-        min-height: calc(100vh - 27rem);
+        /* 15rem footer, 5rem navbar */
+        min-height: calc(100vh - 20rem);
         margin-bottom: 2.5rem;
     }
 

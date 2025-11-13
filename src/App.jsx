@@ -1,28 +1,27 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { useState } from 'react'
 import Navbar from './views/Navbar'
-import Start from './views/Start'
-import Carousel from './views/Carousel'
-import Awa from './views/Awa'
 import Footer from './views/Footer'
+import Home from './views/Home'
+import Movies from './views/Movies'
+import Series from './views/Series'
+import NotFound from './views/NotFound'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar></Navbar>
-      <main>
-        <Start></Start>
-        <div id='carousel'>
-          <h4>Películas</h4>
-          <Carousel type="movies" />
-          <br />
-          <h4>Series</h4>
-          <Carousel type="series" />
-        </div>
-      </main>
-      <Awa/>
-      <Footer/>
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/series" element={<Series />} />
+          <Route path="/*" element= {<NotFound/>}/>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   )
 }

@@ -12,8 +12,8 @@ function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link" href="#">Movies</a>
-                            <a className="nav-link" href="#">Series</a>
+                            <a className="nav-link" href="/movies">Movies</a>
+                            <a className="nav-link" href="/series">Series</a>
                         </div>
                     </div>
                 </div>
