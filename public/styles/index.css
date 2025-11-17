@@ -2,11 +2,15 @@
 
 html {
     --azure-blue: #F0FFFF;
+    --azure-darker: #c0e8ff;
     --light-blue: #77a3f6;
     --cornflower-blue: #6495ED;
     --cobalt-blue: #0047AB;
     --dark-blue: #00008B;
     --midnight-blue: #191970;
+
+    --img-card-height: 22rem;
+    --img-card-width: 14.67rem;
 }
 
 body {

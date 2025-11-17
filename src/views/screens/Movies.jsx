@@ -1,13 +1,25 @@
 import { useEffect } from "react"
+import Card from "../components/Card"
 
 function Movies() {
     useEffect(() => {
         document.title = "Películas"
-    },[])
+    }, [])
 
     return (
         <main>
-            <h1>Aquí va la sección de películas</h1>
+            <section>
+                <h1>Películas</h1>
+                <h5>
+                    Descubre nuevo contenido interesante aquí 😃
+                </h5>
+                <br />
+            </section>
+            <section id="movie-cards">
+                <Card></Card>
+                <Card></Card>
+            </section>
+
         </main>
     )
 }
