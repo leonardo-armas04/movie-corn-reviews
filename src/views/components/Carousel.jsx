@@ -1,5 +1,5 @@
-import movies from '../data/movies.json'
-import series from '../data/series.json'
+import movies from '../../data/movies.json'
+import series from '../../data/series.json'
 
 function Carousel(props) {
     let elements

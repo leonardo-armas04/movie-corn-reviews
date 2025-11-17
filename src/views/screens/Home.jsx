@@ -1,19 +1,19 @@
-import Start from "./Start"
-import Carousel from "./Carousel"
-import Awa from "./Awa"
+import Start from "../components/Start"
+import Carousel from "../components/Carousel"
+import Awa from "../components/Awa"
 
 function Home() {
     return (
         <>
             <main>
                 <Start></Start>
-                <div id='carousel'>
+                <section id='carousel'>
                     <h4>Películas</h4>
                     <Carousel type="movies" />
                     <br />
                     <h4>Series</h4>
                     <Carousel type="series" />
-                </div>
+                </section>
             </main>
             <Awa />
         </>

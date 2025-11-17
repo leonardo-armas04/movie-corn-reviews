@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { useState } from 'react'
-import Navbar from './views/Navbar'
-import Footer from './views/Footer'
-import Home from './views/Home'
-import Movies from './views/Movies'
-import Series from './views/Series'
-import NotFound from './views/NotFound'
+import Home from './views/screens/Home'
+import Movies from './views/screens/Movies'
+import Series from './views/screens/Series'
+import Navbar from './views/components/Navbar'
+import Footer from './views/components/Footer'
+import NotFound from './views/screens/NotFound'
 
 function App() {
   const [count, setCount] = useState(0)

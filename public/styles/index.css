@@ -45,7 +45,7 @@ h1 {
     padding-left: 2rem;
 }
 
-header>p {
+section>p {
     text-align: justify;
     max-width: 50rem;
     margin: 0 auto;

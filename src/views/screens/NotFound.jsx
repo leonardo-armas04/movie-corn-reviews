@@ -1,4 +1,10 @@
+import { useEffect } from "react"
+
 function NotFound() {
+    useEffect(() => {
+        document.title = "Error 404!"
+    },[])
+    
     return (
         <>
         <main>

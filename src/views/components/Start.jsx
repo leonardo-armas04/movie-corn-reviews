@@ -1,7 +1,7 @@
 function Start() {
     return (
         <>
-            <header>
+            <section>
                 <h1>¡Bienvenidos!</h1>
                 <div id="popcorn-container">
                     <img src="/images/popcorn.png" alt="Popcorn" />
@@ -27,7 +27,7 @@ function Start() {
                     ¡Descubre el catálogo de películas y series que hay disponible aquí abajo!
                 </p>
                 <br/>
-            </header>
+            </section>
         </>
     )
 }
