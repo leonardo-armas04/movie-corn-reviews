@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Home from './views/screens/Home'
 import Movies from './views/screens/Movies'
 import Series from './views/screens/Series'
+import Review from './views/screens/Review'
 import Navbar from './views/components/Navbar'
 import Footer from './views/components/Footer'
 import NotFound from './views/screens/NotFound'
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/series" element={<Series />} />
+          <Route path="/movies/:reviewName" element={<Review type="movies"/>} />
+          <Route path="/series/:reviewName" element={<Review type="series"/>} />
           <Route path="/*" element= {<NotFound/>}/>
         </Routes>
       </BrowserRouter>

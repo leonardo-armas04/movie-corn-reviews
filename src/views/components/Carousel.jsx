@@ -22,7 +22,9 @@ function Carousel(props) {
                         return (
                             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} 
                                 key={element._id}>
-                                <img src={`/${type}/${element.img}-carousel.jpg`} className="d-block w-100" alt="..." />
+                                <a href={`/${type}/${element.img}`}>
+                                    <img src={`/${type}/${element.img}-carousel.jpg`} className="d-block w-100" alt="..." />
+                                </a>
                             </div>
                         )
                     })
