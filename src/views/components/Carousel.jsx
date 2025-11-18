@@ -21,7 +21,7 @@ function Carousel(props) {
                     elements.map((element,index) => {
                         return (
                             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} 
-                                key={element.img}>
+                                key={element._id}>
                                 <img src={`/${type}/${element.img}-carousel.jpg`} className="d-block w-100" alt="..." />
                             </div>
                         )

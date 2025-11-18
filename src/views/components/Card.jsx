@@ -1,11 +1,14 @@
-function Card() {
+function Card(props) {
+    const {type, name, year, img} = props
     return (
         <div className="card-item">
-            <div className="card-img">
-                <img src="/movies/superman-2025.jpg" alt="Movie" />
-            </div>
-            <h4>Movie title</h4>
-            <h6>2025</h6>
+            <a href="#">
+                <div className="card-img">
+                    <img src={`/${type}/${img}.jpg`} alt="Movie" />
+                </div>
+                <h4>{name}</h4>
+                <h6>{year}</h6>
+            </a>
         </div>
     )
 }

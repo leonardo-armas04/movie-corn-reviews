@@ -1,11 +1,14 @@
 import { useEffect } from "react"
 import Card from "../components/Card"
+import moviesJSON from "../../data/movies.json"
 
 function Movies() {
     useEffect(() => {
         document.title = "Películas"
     }, [])
 
+    const movies = moviesJSON
+    
     return (
         <main>
             <section>
@@ -16,10 +19,16 @@ function Movies() {
                 <br />
             </section>
             <section id="movie-cards">
-                <Card></Card>
-                <Card></Card>
+                {
+                    movies.map((movie) => {
+                        return <Card type="movies"
+                            key={movie._id}
+                            name={movie.name}
+                            year={movie.year}
+                            img={movie.img}/>
+                    })
+                }
             </section>
-
         </main>
     )
 }

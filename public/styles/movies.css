@@ -4,12 +4,13 @@
     margin: 0 auto;
 } */
 
-#movie-cards {
+#movie-cards, #serie-cards {
     margin: 0 auto;
     max-width: 50rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    row-gap: 2rem;
 }
 
 .card-item {
@@ -18,6 +19,11 @@
     max-width: var(--img-card-width);
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 1s;
+}
+
+.card-item a {
+    color: inherit
 }
 
 .card-img {
@@ -32,10 +38,15 @@
     object-fit: cover;
 }
 
+.card-item:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
-    #movie-cards {
+    #movie-cards, #serie-cards {
         display: flex;
         flex-direction: column;
+        row-gap: 0;
     }
 
     .card-item {

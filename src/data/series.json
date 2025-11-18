@@ -1,15 +1,18 @@
 [
     {
+        "_id": 1,
         "name": "Lois y Clark las nuevas aventuras de Superman",
         "year": "1993-1997",
         "img": "lois-and-clark"
     },
     {
+        "_id": 2,
         "name": "Smallville",
         "year": "2001-2011",
         "img": "smallville"
     },
     {
+        "_id": 3,
         "name": "El juego del calamar",
         "year": "2023-2025",
         "img": "squid-game"
