@@ -3,18 +3,21 @@
         "_id": 1,
         "name": "Lois y Clark las nuevas aventuras de Superman",
         "year": "1993-1997",
-        "img": "lois-and-clark"
+        "img": "lois-and-clark",
+        "description": "Lois y Clark, las nuevas aventuras de Superman es una serie que cuenta las peculiares relaciones entre Lois, una ambiciosa periodista, y Clark, otro periodista con una doble personalidad, ya que detrás de sus gafas se esconde el Hombre de Acero. La serie se estructura en cuatro etapas bien diferenciadas: \nEn la primera, Lois se encuentra con su nuevo compañero: Clark Kent, un joven de Kansas que es hijo adoptivo de unos granjeros y oculta el secreto de ser Superman, un héroe que está siendo conocido por el mundo. Poco a poco lo irá descubriendo pero hasta el momento solo son compañeros de trabajo, mientras Superman la cautiva profundamente. Eso sí, el millonario Lex Luthor será un gran obstáculo en esta relación. \nEn la segunda temporada, Lois empieza a mirar a Clark y a Superman con ojos distintos. Se le plantea el gran dilema de escoger a uno o a otro, aunque ya sospecha algo de la doble personalidad de Clark. No será sencillo, ya que las desilusiones los llevarán a ambos a encontrar nuevas citas a través de personajes con una participación especial. En los últimos capítulos de esta temporada Lois descubre quién es realmente Clark. \nEn la tercera temporada Lois y Clark viven la resolución de los conflictos que los separan y enfrentan aventuras que los unen al nivel de querer contraer matrimonio. Son momentos intensos antes de la boda y llegan hasta a dudar de ello en algún momento. A Superman se le plantea un dilema: quedarse con Lois en la Tierra o volver con los suyos a un nuevo planeta, llamado Nuevo Krypton, para ayudar a los supervivientes a construir su nuevo planeta. \nEn la cuarta, se resuelve todo el drama de que Superman tenía que abandonar la Tierra para irse a gobernar Nuevo Krypton. Al final los kryptonianos se dan cuenta de que Clark tiene más de terrícola que de kryptoniano y regresa a la Tierra donde lo tiene todo: Lois. Y a partir de ahí viene el capítulo más esperado por todos, el de la boda entre Lois y Clark. Eso sí, este ciclo tiene un final de lo más inesperado y que deja muchos interrogantes abiertas, las que años más tarde fueron resueltas por los productores del show, mas no existe material audiovisuales que resuelva esas inquietudes que plantearon."
     },
     {
         "_id": 2,
         "name": "Smallville",
         "year": "2001-2011",
-        "img": "smallville"
+        "img": "smallville",
+        "description": "La serie narra las aventuras del joven Clark Kent en el pueblo ficticio de Smallville, Kansas, durante los años previos a que él se convierta en Superman. Las primeras cuatro temporadas se centran en Clark y sus amigos durante el instituto (High School). A partir de la Quinta Temporada la serie cambia de concepto, con situaciones más adultas, y la inclusión de elementos como la Fortaleza de la Soledad y la Zona Fantasma. \nTambién aparecen otros personajes DC como superhéroes (Bart Allen, álter de ego de Flash; Victor Stone, alter ego de Cyborg; Arthur Curry, álter de ego de Aquaman; Oliver Queen, alter ego de Green Arrow; Kara Zor-El, alter ego de Supergirl; John Jones, alter ego de Martian Manhunter; Dinah Lance, alter ego de Black Canary; Hawkman, entre otros); y como villanos (Lex Luthor; Morgan Edge; Milton Fine, alter ego de Brainiac; Bizarro; Dr. Knox, alter ego de Vandal Savage; Davis Bloome, alter ego de Doomsday; El General Zod, John Corben, álter de ego Metallo; Darkseid, entre otros)."
     },
     {
         "_id": 3,
         "name": "El juego del calamar",
         "year": "2023-2025",
-        "img": "squid-game"
+        "img": "squid-game",
+        "description": "En Corea del Sur, Seong Gi-hun, un padre divorciado y ludópata que vive con su anciana madre, es invitado a jugar una serie de juegos infantiles para tener la oportunidad de ganar un gran premio en efectivo. Al aceptar la oferta, lo llevan a un lugar desconocido donde se encuentra entre otros 455 jugadores que tienen serios problemas financieros. Los jugadores deben usar chándales verdes y están bajo vigilancia en todo momento por guardias enmascarados con monos rosas, y los juegos son supervisados por El Líder, que usa una máscara negra y un uniforme negro. \nLos jugadores pronto descubren que perder un juego resulta en su muerte, y cada muerte contribuye con ₩100 millones al potencial gran premio de ₩45 600 millones. Gi-hun se alía con otros jugadores, incluido su amigo de la infancia Cho Sang-woo, la desertora norcoreana Kang Sae-byeok y el inmigrante paquistaní Ali Abdul, para intentar sobrevivir a los giros físicos y psicológicos de los juegos, mientras que el detective Hwang Jun-ho se infiltra en los juegos como uno de los guardias para encontrar a su hermano desaparecido."
     }
 ]

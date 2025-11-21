@@ -27,13 +27,25 @@ function Review(props) {
         return <NotFound/>
     }
 
+    let {description} = contentObject
+    description = description.split("\n") 
+
     return (
         <main>
-            <h3>
-                Esta página corresponde a la película de
-            </h3>
-            <br />
-            <h2>{contentObject.name}</h2>
+            <h1>{contentObject.name}</h1>
+            <div className="review-img-mobile">
+                <img src={`/${type}/${contentObject.img}-carousel.jpg`} alt="Movie" />
+            </div>
+            <section className="review-img-txt">
+                <img src={`/${type}/${contentObject.img}.jpg`} alt="" />
+                <div className="paragraphs">
+                    {
+                        description.map(((paragraph,index) => {
+                            return <p key={index}>{paragraph}</p>
+                        }))
+                    }
+                </div>
+            </section>
         </main>
     )
 }

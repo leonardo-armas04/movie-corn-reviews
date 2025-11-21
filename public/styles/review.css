@@ -1,0 +1,43 @@
+.review-img-mobile {
+    display: none;
+}
+
+.review-img-txt {
+    display: flex;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.review-img-txt img {
+    width: var(--img-card-width);
+    height: var(--img-card-height);
+    object-fit: cover;
+}
+
+.paragraphs {
+    margin-left: 2rem;
+}
+
+.paragraphs p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .review-img-txt img {
+        display: none;
+    }
+
+    .review-img-mobile {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .review-img-mobile img {
+        width: 100%;
+    }
+
+    .paragraphs {
+        margin-left: 0;
+    }
+}

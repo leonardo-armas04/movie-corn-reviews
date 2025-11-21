@@ -3,18 +3,21 @@
         "_id": 1,
         "name": "Los cuatro fantásticos",
         "year": "2025",
-        "img": "fantastic-four"
+        "img": "fantastic-four",
+        "description": "En 1960, en la Tierra-828, los astronautas Reed Richards, Sue Storm, Ben Grimm y Johnny Storm se embarcaron en una misión espacial, durante la cual adquirieron habilidades sobrehumanas gracias a la exposición a rayos cósmicos. Al regresar a la Tierra, ellos formaron un equipo de superhéroes conocido como los Cuatro Fantásticos. Cuatro años después, el equipo se ha convertido en una celebridad y se les considera los protectores del mundo, participando en iniciativas filantrópicas y diplomáticas a través de Future Foundation. Durante una cena familiar, Reed y Sue les revelan a Ben y Johnny que están esperando un hijo. \nSilver Surfer llega a la Tierra y declara que el planeta ha sido marcado para ser destruido por Galactus, un ser cósmico devorador de planetas. Reed estudia la desaparición de otros planetas para verificar esta afirmación, y el equipo decide encontrar a Galactus antes de que llegue a la Tierra. Rastrean la firma energética de Silver Surfer y usan viajes más rápidos que la luz (FTL) para llegar a un nuevo planeta. Al llegar, el planeta es destruido por la nave de Galactus y el equipo es capturado. Galactus revela que tiene un hambre insaciable que lo ha llevado a consumir planetas durante eones. Siente que el feto de Reed y Sue tiene un inmenso poder cósmico y podría asumir el hambre de Galactus, liberándolo de ella. Galactus ofrece perdonar la Tierra a cambio del niño"
     },
     {
         "_id": 2,
         "name": "Bob Esponja la película",
         "year": "2004",
-        "img": "spongebob-movie-2004"
+        "img": "spongebob-movie-2004",
+        "description": "La película comienza con una banda de piratas que encuentra un cofre del tesoro con entradas para Bob Esponja: La película y acuden entusiasmados al cine. \nEn la historia principal, ambientada en la ciudad submarina de Fondo de Bikini, Mr. Krabs inaugura un segundo local de su exitoso restaurante, el Krusty Krab, junto al original. Bob Esponja, su entusiasta cocinero, espera ser nombrado gerente del nuevo establecimiento, pero Mr. Krabs elige a Calamardo Tentáculos, al argumentar que Bob aún es inmaduro para el puesto. \nDecepcionado, el protagonista acude a la heladería Goofy Goober, donde se consuela comiendo helado con su mejor amigo, Patricio Estrella. Mientras tanto, Plankton, el rival de Mr. Krabs y propietario del impopular Chum Bucket, pone en marcha su \"Plan Z\". Roba la corona del Rey Neptuno, la envía a Ciudad Almeja e incrimina a Mr. Krabs por el robo. Neptuno lo confronta en el Krusty Krab 2 y, convencido de su culpabilidad, lo congela. Bob Esponja, sintiéndose culpable tras haber actuado de forma infantil, se ofrece a recuperar la corona en seis días para salvar a su jefe de ser ejecutado."
     },
     {
         "_id": 3,
         "name": "Superman",
         "year": "2025",
-        "img": "superman-2025"
+        "img": "superman-2025",
+        "description": "Clark Kent / Superman impide que la nación de Boravia invada el país vecino de Jarhanpur y advierte a su presidente, Vasil Ghurkos, que cese las agresiones. Poco después, un metahumano conocido como el \"Martillo de Boravia\" lo vence en combate en Metrópolis. Herido, se retira a la Fortaleza de la Soledad en la Antártida con la ayuda de su perro Krypto. Hasta allí lo persigue Angela Spica / The Engineer, aliada del empresario Lex Luthor. En la fortaleza, los robots de Superman canalizan radiación solar concentrada para curarlo y reproducen un mensaje grabado por sus padres biológicos, Jor-El y Lara Lor-Van, quienes lo enviaron a la Tierra antes de la destrucción de Krypton. El archivo, dañado durante el viaje, conserva solo la primera mitad. Recuperado, Superman regresa a Metrópolis y vuelve a caer ante el Martillo, que resulta ser Ultraman, un metahumano al servicio de Lex. \n Lex libera un monstruo gigante en Metrópolis para distraerlo y, junto con Ultraman y The Engineer, se infiltra en la fortaleza. El trío destruye a los robots, captura a Krypto y accede al mensaje kryptoniano, que The Engineer logra reparar. La opinión pública se vuelve contra Superman después de su tenso enfrentamiento con Lex."
     }
 ]
