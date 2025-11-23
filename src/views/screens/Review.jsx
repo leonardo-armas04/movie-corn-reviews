@@ -33,7 +33,7 @@ function Review(props) {
 
     useEffect(() => {
         document.title = name
-    })
+    },[])
 
     return (
         <main>

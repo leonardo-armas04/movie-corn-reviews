@@ -5,7 +5,7 @@ import moviesJSON from "../../data/movies.json"
 function Movies() {
     useEffect(() => {
         document.title = "Películas"
-    }, [])
+    },[])
 
     const movies = moviesJSON
     
