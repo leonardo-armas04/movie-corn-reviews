@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import moviesJSON from "../../data/movies.json"
 import seriesJSON from "../../data/series.json"
 import NotFound from "./NotFound"
+import { useEffect } from "react"
 
 function Review(props) {
     const {reviewName} = useParams()
@@ -27,8 +28,12 @@ function Review(props) {
         return <NotFound/>
     }
 
-    let {description} = contentObject
-    description = description.split("\n") 
+    let {name, description} = contentObject
+    description = description.split("\n")
+
+    useEffect(() => {
+        document.title = name
+    })
 
     return (
         <main>
