@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+form button {
+    background-color: var(--cobalt-blue);
+    color: var(--azure-blue);
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px #010015;
+    align-self: center;
+}
+
+input, select {
+    width: 80%;
+    height: 2.4rem;
+    padding: 0 0.5rem;
+    border-radius: 12px;
+    border: 2px solid var(--midnight-blue);
+    color: var(--midnight-blue);
+}
+
+input:focus {
+    background-color: var(--azure-darker);
+}
+
+form button:hover {
+    background-color: #0155CA;
+}

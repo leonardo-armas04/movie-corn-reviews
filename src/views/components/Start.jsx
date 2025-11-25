@@ -18,7 +18,7 @@ function Start() {
                     Este sitio está más enfocado en géneros de animación, acción, ciencia
                     ficción; una página de Geeks para Geeks. De igual manera podrás
                     contribuir con ideas de próximas películas o series que puedan salir
-                    aquí ya que tenemos una sección de <a href="#">sugerencias</a>; el objetivo es poder
+                    aquí ya que tenemos una sección de <a href="/sugerencias">sugerencias</a>; el objetivo es poder
                     compartir y descubrir nuevo contenido para aquellos amantes de los
                     Superhéroes, las caricaturas o la ciencia ficción en general.
                 </p>

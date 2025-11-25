@@ -14,7 +14,7 @@ function Footer() {
                     </div>
                 </div>
                 <div id="links">
-                    <a href="#">Sugerencias de contenido</a>
+                    <a href="/sugerencias">Sugerencias de contenido</a>
                     <a href="#">Sobre nosotros</a>
                     <a href="/movies">Películas</a>
                     <a href="/series">Series</a>

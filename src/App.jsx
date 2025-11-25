@@ -7,6 +7,7 @@ import Review from './views/screens/Review'
 import Navbar from './views/components/Navbar'
 import Footer from './views/components/Footer'
 import NotFound from './views/screens/NotFound'
+import Suggestions from './views/screens/Suggestions'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
           <Route path="/series" element={<Series />} />
           <Route path="/movies/:reviewName" element={<Review type="movies"/>} />
           <Route path="/series/:reviewName" element={<Review type="series"/>} />
+          <Route path="/sugerencias" element={<Suggestions/>} />
           <Route path="/*" element= {<NotFound/>}/>
         </Routes>
       </BrowserRouter>
