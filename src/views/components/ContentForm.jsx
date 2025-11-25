@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import Spinner from "./Spinner"
+import Feedback from "./Feedback"
 
 function ContentForm() {
     let [name,setName] = useState("")
@@ -44,6 +46,8 @@ function ContentForm() {
                     <button>Enviar</button>
                 </form>
             </section>
+            <Spinner/>
+            <Feedback/>
         </>
     )
 }
