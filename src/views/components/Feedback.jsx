@@ -1,5 +1,5 @@
-function Feedback() {
-    let name
+function Feedback(props) {
+    const {name} = props
     return (
         <div className="feedback">
             <h2>Gracias por tus sugerencias <span>{name}</span></h2>

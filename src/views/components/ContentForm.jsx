@@ -1,23 +1,5 @@
-import { useEffect, useState } from "react"
-import Spinner from "./Spinner"
-import Feedback from "./Feedback"
-
-function ContentForm() {
-    let [name,setName] = useState("")
-
-    useEffect(() => {
-        document.title = "Sugerencias"
-    },[])
-    
-    function submitForm(e) {
-        e.preventDefault()
-        console.log(e)
-        const formHTML = e.target
-        console.log(formHTML.userName.value)
-
-        // const formData = new FormData(formHTML) --> send this to backend
-    }
-
+function ContentForm(props) {
+    const {submitForm} = props
     return (
         <>
             <section id="suggestionsForm">
@@ -46,8 +28,6 @@ function ContentForm() {
                     <button>Enviar</button>
                 </form>
             </section>
-            <Spinner/>
-            <Feedback/>
         </>
     )
 }
