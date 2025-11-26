@@ -22,7 +22,7 @@ function Suggestions() {
         setTimeout(() => {
             sending = setSending(false)
             showFeedback = setShowFeedback(true)
-        },1500)
+        },1400)
 
         // const formData = new FormData(formHTML) --> send this to backend
     }

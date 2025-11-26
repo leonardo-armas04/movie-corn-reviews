@@ -89,6 +89,12 @@ main a {
     width: 75%;
 }
 
+.movie-img {
+    width: 20rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
 @media (max-width: 768px) {
     main {
         /* 15rem footer, 5rem navbar */
@@ -108,5 +114,9 @@ main a {
 
     #popcorn-container p {
         padding: 0;
+    }
+
+    .carousel {
+        width: 100%;
     }
 }
