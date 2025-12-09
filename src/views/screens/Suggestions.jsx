@@ -15,13 +15,13 @@ function Suggestions() {
     const submitForm = (e) => {
         e.preventDefault()
         const formHTML = e.target
-        userName = setUserName(formHTML.userName.value)
+        setUserName(formHTML.userName.value)
 
-        sending = setSending(true)
+        setSending(true)
 
         setTimeout(() => {
-            sending = setSending(false)
-            showFeedback = setShowFeedback(true)
+            setSending(false)
+            setShowFeedback(true)
         },1400)
 
         // const formData = new FormData(formHTML) --> send this to backend
